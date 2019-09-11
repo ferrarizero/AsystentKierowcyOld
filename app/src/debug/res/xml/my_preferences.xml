@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory android:title="@string/title_pref_obd">
+        <ListPreference
+            android:defaultValue="AUTO"
+            android:dialogTitle="@string/pref_obd_protocols_title"
+            android:key="obd_protocols_preference"
+            android:summary="@string/pref_obd_protocols_summary"
+            android:title="@string/pref_obd_protocols_title" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
